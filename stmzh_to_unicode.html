@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Stmzh to Unicode - Tamil Font Converter</title>
+  <meta name="description"
+    content="First 100% accurate Tamil font converter online.have unicode to stmzh, Unicode To Bamini, Unicode To Tab, Unicode To Tam, Unicode To Ka, Unicode To Jeeva, Unicode To Chenet Platinum, Unicode To Vanavil, Unicode To LT-TM..etc font convertor">
+  <meta name="keywords"
+    content="tamil font converter unicode to bamini, unicode to bamini, tamil font converter latha to bamini, bamini to unicode, bamini font, bamini tamil font keyboard, bamini font keyboard, bamini keyboard">
+
+  <!-- ====Favicons==== -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <!-- ====Font Awesome Stylesheet==== -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- ====Bootstrap Stylesheet==== -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- ====Main Stylesheet==== -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- ====Responsive Stylesheet==== -->
+  <link href="css/responsive-style.css" rel="stylesheet">
+  <!-- ====Main Color Scheme CSS==== -->
+  <link href="css/main-color-black.css" rel="stylesheet" type='text/css'>
+  <!-- ====jQuery Script==== -->
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  <!-- ====Tamil Typing Stylesheet==== -->
+  <link href="css/tmtyping.css" type="text/css" rel="stylesheet">
+  <!-- ====Tamil Typing Script==== -->
+  <script src="js/tmtypings.js" type="text/javascript"></script>
+  <script src="js/tmtypingt.js" type="text/javascript"></script>
+  <script src="js/tmtyping.js" type="text/javascript"></script>
+  <!-- ====Tamil convector Script==== -->
+  <script language="javascript" type="text/javascript" src="jsanytouni/stmzh.js"></script>
+  <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+
+  <style>
+    @font-face {
+      font-family: stmzh;
+      src: url(fonts/stmzh.ttf);
+    }
+
+    .output {
+      font-family: stmzh;
+      font-size: 22px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Wrapper Start -->
+  <div class="wrapper">
+    <!-- Logo Start -->
+    <div class="logo">
+      <div class="container"> <a href="index.html">Tamil Font Converter</a> </div>
+    </div>
+    <!-- Logo End -->
+    <!-- Select Area Start -->
+    <div id="tamil">
+      <div class="container">
+        <div class="tamil-tab-filter">
+          <ul class="nav nav-tabs">
+            <li><a href="unicode_to_bamini.html" class="btn-custom-reverse">Unicode To Bamini</a></li>
+			<li><a href="unicode_to_stmzh.html" class="btn-custom-reverse">Unicode To Senthamizh</a></li>
+            <li><a href="unicode_to_suntommy.html" class="btn-custom-reverse">Unicode To SunTommy</a></li>
+          </ul>
+          <br>
+
+          <ul class="nav nav-tabs">
+            <li><a href="bamini_to_unicode.html" class="btn-custom-reverse">Bamini To Unicode</a></li>
+			<li><a href="stmzh_to_unicode.html" class="btn-custom-reverse">Senthamizh To Unicode</a></li>
+            <li><a href="suntommy_to_unicode.html" class="btn-custom-reverse">SunTommy To Unicode</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <!-- Section Title Start -->
+        <div class="section-title">
+          <h2><span> Stmzh / RGB (SR-Tamil) To Unicode</span></h2>
+        </div>
+        <!-- Section Title End -->
+        <div id="divPart2">
+          <form name=yarlsuratha>
+            <div id="btn-group">
+              <input class="sellect-ln" onclick=startTextS(); type=button name=mybutton value="Convert">
+              <input class="sellect-ln" onclick="copy();" type=button value="Copy Tamil Text">
+              <input class="sellect-ln" onclick="saveFile();" type=button value="Save to Text File">
+              <input class="sellect-ln" onclick="saveDocAsFile();" type=button value="Save to Word File">
+              <input class="sellect-ln" onclick="printTextArea();" type=button value="Print Text">
+              <input class="sellect-ln" onclick="whatsapp_share();" type=button value="Share Whatsapp">
+              <input class="sellect-ln" onclick=toform(); type=reset value="Clear Text">
+            </div>
+
+            <div class="col-md-5">
+              <p class="text" style="color: #333333;font-weight: bold;">நீங்கள் Copy செய்த Stmzh / RGB / SR-Tamil Font-ஐ
+                கீழே உள்ள Box-ல் Paste செய்து பின்னர் Convert Button-ஐ கிளிக் செய்து Unicode Font-ஐ பெறலாம் . </p>
+              <textarea class="textareaall output" name=box1 placeholder="   "></textarea>
+            </div>
+        </div>
+        <div class="col-md-2">
+
+         
+        </div>
+        <div class="col-md-5">
+          <p class="text" style="color: #333333;font-weight: bold;">Convert செய்யப்பட்ட Unicode (Latha, Nirmala UI,
+            Vijaya, Tau marutham.. etc) font கீழே உள்ள Box-ல் உள்ளது. Copy Button-ஐ கிளிக் செய்து copy செய்து கொள்ளவும்.
+          </p>
+          <textarea id="transliterateDiv" class="textareaall  " name=box2></textarea>
+        </div>
+        </form>
+      </div>
+    
+    </div>
+
+    <!-- Select Area Start -->
+
+   
+      <!-- Copyright Start -->
+      <div class="copyright">
+        <div class="container">
+          <p>&copy; Thonsi| All Rights Reserved.</p>
+        </div>
+      </div>
+      <!-- Copyright End -->
+  </div>
+  <!-- Wrapper End -->
+
+</body>
+<!-- ====jQuery Core Script==== -->
+<script src="js/jquery-2.2.2.min.js"></script>
+<!-- ====Bootstrap Core Script==== -->
+<script src="js/bootstrap.min.js"></script>
+<!-- ====Ctrl Script==== -->
+<script src="js/controls.js"></script>
+
+</html>

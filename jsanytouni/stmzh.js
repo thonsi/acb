@@ -1,0 +1,397 @@
+﻿
+var eelam;
+function startTextS() {
+
+eelam = document.yarlsuratha.box1.value;  
+
+
+eelam=eelam.replace(//g, "ஸ்ரீ");
+eelam=eelam.replace(//g, "௸");
+
+eelam=eelam.replace(//g, "க்ஷௌ");
+eelam=eelam.replace(//g, "க்ஷோ");
+eelam=eelam.replace(//g, "க்ஷொ");
+eelam=eelam.replace(//g, "க்ஷா");
+eelam=eelam.replace(//g, "க்ஷி");
+eelam=eelam.replace(//g, "க்ஷீ");
+eelam=eelam.replace(//g, "க்ஷு");
+eelam=eelam.replace(//g, "க்ஷூ");
+eelam=eelam.replace(//g, "க்ஷெ");
+eelam=eelam.replace(//g, "க்ஷே");
+eelam=eelam.replace(//g, "க்ஷை");
+eelam=eelam.replace(//g, "க்ஷ்");
+eelam=eelam.replace(//g, "க்ஷ");
+
+eelam=eelam.replace(//g, "ஜௌ");
+eelam=eelam.replace(//g, "ஜோ");
+eelam=eelam.replace(//g, "ஜொ");
+eelam=eelam.replace(//g, "ஜா");
+eelam=eelam.replace(//g, "ஜி");
+eelam=eelam.replace(//g, "ஜீ");
+eelam=eelam.replace(//g, "ஜு");
+eelam=eelam.replace(//g, "ஜூ");
+eelam=eelam.replace(//g, "ஜெ");
+eelam=eelam.replace(//g, "ஜே");
+eelam=eelam.replace(//g, "ஜை");
+eelam=eelam.replace(//g, "ஜ்");
+eelam=eelam.replace(//g, "ஜ");
+
+eelam=eelam.replace(//g, "கௌ");
+eelam=eelam.replace(//g, "கோ");
+eelam=eelam.replace(//g, "கொ");
+eelam=eelam.replace(//g, "கா");
+eelam=eelam.replace(//g, "கி");
+eelam=eelam.replace(//g, "கீ");
+eelam=eelam.replace(//g, "கு");
+eelam=eelam.replace(//g, "கூ");
+eelam=eelam.replace(//g, "கெ");
+eelam=eelam.replace(//g, "கே");
+eelam=eelam.replace(//g, "கை");
+eelam=eelam.replace(//g, "க்");
+eelam=eelam.replace(//g, "க");
+
+eelam=eelam.replace(//g, "ஙௌ");
+eelam=eelam.replace(//g, "ஙோ");
+eelam=eelam.replace(//g, "ஙொ");
+eelam=eelam.replace(//g, "ஙா");
+eelam=eelam.replace(/ி/g, "ஙி");
+eelam=eelam.replace(/ீ/g, "ஙீ");
+eelam=eelam.replace(/ு/g, "ஙு");
+eelam=eelam.replace(/ூ/g, "ஙூ");
+eelam=eelam.replace(//g, "ஙெ");
+eelam=eelam.replace(//g, "ஙே");
+eelam=eelam.replace(//g, "ஙை");
+eelam=eelam.replace(//g, "ங்");
+eelam=eelam.replace(//g, "ங");
+
+eelam=eelam.replace(//g, "சௌ");
+eelam=eelam.replace(//g, "சோ");
+eelam=eelam.replace(//g, "சொ");
+eelam=eelam.replace(//g, "சா");
+eelam=eelam.replace(//g, "சி");
+eelam=eelam.replace(//g, "சீ");
+eelam=eelam.replace(//g, "சு");
+eelam=eelam.replace(//g, "சூ");
+eelam=eelam.replace(//g, "செ");
+eelam=eelam.replace(//g, "சே");
+eelam=eelam.replace(//g, "சை");
+eelam=eelam.replace(//g, "ச்");
+eelam=eelam.replace(//g, "ச");
+
+eelam=eelam.replace(//g, "ஞௌ");
+eelam=eelam.replace(//g, "ஞோ");
+eelam=eelam.replace(//g, "ஞொ");
+eelam=eelam.replace(//g, "ஞா");
+eelam=eelam.replace(/ி/g, "ஞி");
+eelam=eelam.replace(/ீ/g, "ஞீ");
+eelam=eelam.replace(/ு/g, "ஞு");
+eelam=eelam.replace(/ூ/g, "ஞூ");
+eelam=eelam.replace(//g, "ஞெ");
+eelam=eelam.replace(//g, "ஞே");
+eelam=eelam.replace(//g, "ஞை");
+eelam=eelam.replace(//g, "ஞ்");
+eelam=eelam.replace(//g, "ஞ");
+
+eelam=eelam.replace(//g, "டௌ");
+eelam=eelam.replace(//g, "டோ");
+eelam=eelam.replace(//g, "டொ");
+eelam=eelam.replace(//g, "டா");
+eelam=eelam.replace(//g, "டி");
+eelam=eelam.replace(//g, "டீ");
+eelam=eelam.replace(//g, "டு");
+eelam=eelam.replace(//g, "டூ");
+eelam=eelam.replace(//g, "டெ");
+eelam=eelam.replace(//g, "டே");
+eelam=eelam.replace(//g, "டை");
+eelam=eelam.replace(//g, "ட்");
+eelam=eelam.replace(//g, "ட");
+
+eelam=eelam.replace(//g, "ணௌ");
+eelam=eelam.replace(//g, "ணோ");
+eelam=eelam.replace(//g, "ணொ");
+eelam=eelam.replace(//g, "ணா");
+eelam=eelam.replace(//g, "ணி");
+eelam=eelam.replace(//g, "ணீ");
+eelam=eelam.replace(//g, "ணு");
+eelam=eelam.replace(//g, "ணூ");
+eelam=eelam.replace(//g, "ணெ");
+eelam=eelam.replace(//g, "ணே");
+eelam=eelam.replace(//g, "ணை");
+eelam=eelam.replace(//g, "ண்");
+eelam=eelam.replace(//g, "ண");
+
+eelam=eelam.replace(//g, "தௌ");
+eelam=eelam.replace(//g, "தோ");
+eelam=eelam.replace(//g, "தொ");
+eelam=eelam.replace(//g, "தா");
+eelam=eelam.replace(//g, "தி");
+eelam=eelam.replace(//g, "தீ");
+eelam=eelam.replace(//g, "து");
+eelam=eelam.replace(//g, "தூ");
+eelam=eelam.replace(//g, "தெ");
+eelam=eelam.replace(//g, "தே");
+eelam=eelam.replace(//g, "தை");
+eelam=eelam.replace(//g, "த்");
+eelam=eelam.replace(//g, "த");
+
+eelam=eelam.replace(//g, "நௌ");
+eelam=eelam.replace(//g, "நோ");
+eelam=eelam.replace(//g, "நொ");
+eelam=eelam.replace(//g, "நா");
+eelam=eelam.replace(//g, "நி");
+eelam=eelam.replace(//g, "நீ");
+eelam=eelam.replace(//g, "நு");
+eelam=eelam.replace(//g, "நூ");
+eelam=eelam.replace(//g, "நெ");
+eelam=eelam.replace(//g, "நே");
+eelam=eelam.replace(//g, "நை");
+eelam=eelam.replace(//g, "ந்");
+eelam=eelam.replace(//g, "ந");
+
+eelam=eelam.replace(//g, "னௌ");
+eelam=eelam.replace(//g, "னோ");
+eelam=eelam.replace(//g, "னொ");
+eelam=eelam.replace(//g, "னா");
+eelam=eelam.replace(//g, "னி");
+eelam=eelam.replace(//g, "னீ");
+eelam=eelam.replace(//g, "னு");
+eelam=eelam.replace(//g, "னூ");
+eelam=eelam.replace(//g, "னெ");
+eelam=eelam.replace(//g, "னே");
+eelam=eelam.replace(//g, "னை");
+eelam=eelam.replace(//g, "ன்");
+eelam=eelam.replace(//g, "ன");
+
+eelam=eelam.replace(//g, "பௌ");
+eelam=eelam.replace(//g, "போ");
+eelam=eelam.replace(//g, "பொ");
+eelam=eelam.replace(//g, "பா");
+eelam=eelam.replace(//g, "பி");
+eelam=eelam.replace(//g, "பீ");
+eelam=eelam.replace(//g, "பு");
+eelam=eelam.replace(//g, "பூ");
+eelam=eelam.replace(//g, "பெ");
+eelam=eelam.replace(//g, "பே");
+eelam=eelam.replace(//g, "பை");
+eelam=eelam.replace(//g, "ப்");
+eelam=eelam.replace(//g, "ப");
+
+eelam=eelam.replace(//g, "மௌ");
+eelam=eelam.replace(//g, "மோ");
+eelam=eelam.replace(//g, "மொ");
+eelam=eelam.replace(//g, "மா");
+eelam=eelam.replace(//g, "மி");
+eelam=eelam.replace(//g, "மீ");
+eelam=eelam.replace(//g, "மு");
+eelam=eelam.replace(//g, "மூ");
+eelam=eelam.replace(//g, "மெ");
+eelam=eelam.replace(//g, "மே");
+eelam=eelam.replace(//g, "மை");
+eelam=eelam.replace(//g, "ம்");
+eelam=eelam.replace(//g, "ம");
+
+eelam=eelam.replace(//g, "யௌ");
+eelam=eelam.replace(//g, "யோ");
+eelam=eelam.replace(//g, "யொ");
+eelam=eelam.replace(//g, "யா");
+eelam=eelam.replace(//g, "யி");
+eelam=eelam.replace(//g, "யீ");
+eelam=eelam.replace(//g, "யு");
+eelam=eelam.replace(//g, "யூ");
+eelam=eelam.replace(//g, "யெ");
+eelam=eelam.replace(//g, "யே");
+eelam=eelam.replace(//g, "யை");
+eelam=eelam.replace(//g, "ய்");
+eelam=eelam.replace(//g, "ய");
+
+eelam=eelam.replace(//g, "ரௌ");
+eelam=eelam.replace(//g, "ரோ");
+eelam=eelam.replace(//g, "ரொ");
+eelam=eelam.replace(//g, "ரா");
+eelam=eelam.replace(//g, "ரி");
+eelam=eelam.replace(//g, "ரீ");
+eelam=eelam.replace(//g, "ரு");
+eelam=eelam.replace(//g, "ரூ");
+eelam=eelam.replace(//g, "ரெ");
+eelam=eelam.replace(//g, "ரே");
+eelam=eelam.replace(//g, "ரை");
+eelam=eelam.replace(//g, "ர்");
+eelam=eelam.replace(//g, "ர");
+
+eelam=eelam.replace(//g, "லௌ");
+eelam=eelam.replace(//g, "லோ");
+eelam=eelam.replace(//g, "லொ");
+eelam=eelam.replace(//g, "லா");
+eelam=eelam.replace(//g, "லி");
+eelam=eelam.replace(//g, "லீ");
+eelam=eelam.replace(//g, "லு");
+eelam=eelam.replace(//g, "லூ");
+eelam=eelam.replace(//g, "லெ");
+eelam=eelam.replace(//g, "லே");
+eelam=eelam.replace(//g, "லை");
+eelam=eelam.replace(//g, "ல்");
+eelam=eelam.replace(//g, "ல");
+
+eelam=eelam.replace(//g, "ளௌ");
+eelam=eelam.replace(//g, "ளோ");
+eelam=eelam.replace(//g, "ளொ");
+eelam=eelam.replace(//g, "ளா");
+eelam=eelam.replace(//g, "ளி");
+eelam=eelam.replace(//g, "ளீ");
+eelam=eelam.replace(//g, "ளு");
+eelam=eelam.replace(//g, "ளூ");
+eelam=eelam.replace(//g, "ளெ");
+eelam=eelam.replace(//g, "ளே");
+eelam=eelam.replace(//g, "ளை");
+eelam=eelam.replace(//g, "ள்");
+eelam=eelam.replace(//g, "ள");
+
+eelam=eelam.replace(//g, "வௌ");
+eelam=eelam.replace(//g, "வோ");
+eelam=eelam.replace(//g, "வொ");
+eelam=eelam.replace(//g, "வா");
+eelam=eelam.replace(//g, "வி");
+eelam=eelam.replace(//g, "வீ");
+eelam=eelam.replace(//g, "வு");
+eelam=eelam.replace(//g, "வூ");
+eelam=eelam.replace(//g, "வெ");
+eelam=eelam.replace(//g, "வே");
+eelam=eelam.replace(//g, "வை");
+eelam=eelam.replace(//g, "வ்");
+eelam=eelam.replace(//g, "வ");
+
+eelam=eelam.replace(//g, "ழௌ");
+eelam=eelam.replace(//g, "ழோ");
+eelam=eelam.replace(//g, "ழொ");
+eelam=eelam.replace(//g, "ழா");
+eelam=eelam.replace(//g, "ழி");
+eelam=eelam.replace(//g, "ழீ");
+eelam=eelam.replace(//g, "ழு");
+eelam=eelam.replace(//g, "ழூ");
+eelam=eelam.replace(//g, "ழெ");
+eelam=eelam.replace(//g, "ழே");
+eelam=eelam.replace(//g, "ழை");
+eelam=eelam.replace(//g, "ழ்");
+eelam=eelam.replace(//g, "ழ");
+
+eelam=eelam.replace(//g, "றௌ");
+eelam=eelam.replace(//g, "றோ");
+eelam=eelam.replace(//g, "றொ");
+eelam=eelam.replace(//g, "றா");
+eelam=eelam.replace(//g, "றி");
+eelam=eelam.replace(//g, "றீ");
+eelam=eelam.replace(//g, "று");
+eelam=eelam.replace(//g, "றூ");
+eelam=eelam.replace(//g, "றெ");
+eelam=eelam.replace(//g, "றே");
+eelam=eelam.replace(//g, "றை");
+eelam=eelam.replace(//g, "ற்");
+eelam=eelam.replace(//g, "ற");
+
+eelam=eelam.replace(//g, "ஹௌ");
+eelam=eelam.replace(//g, "ஹோ");
+eelam=eelam.replace(//g, "ஹொ");
+eelam=eelam.replace(//g, "ஹா");
+eelam=eelam.replace(//g, "ஹி");
+eelam=eelam.replace(//g, "ஹீ");
+eelam=eelam.replace(//g, "ஹு");
+eelam=eelam.replace(//g, "ஹூ");
+eelam=eelam.replace(//g, "ஹெ");
+eelam=eelam.replace(//g, "ஹே");
+eelam=eelam.replace(//g, "ஹை");
+eelam=eelam.replace(//g, "ஹ்");
+eelam=eelam.replace(//g, "ஹ");
+
+eelam=eelam.replace(//g, "ஷௌ");
+eelam=eelam.replace(//g, "ஷோ");
+eelam=eelam.replace(//g, "ஷொ");
+eelam=eelam.replace(//g, "ஷா");
+eelam=eelam.replace(//g, "ஷி");
+eelam=eelam.replace(//g, "ஷீ");
+eelam=eelam.replace(//g, "ஷு");
+eelam=eelam.replace(//g, "ஷூ");
+eelam=eelam.replace(//g, "ஷெ");
+eelam=eelam.replace(//g, "ஷே");
+eelam=eelam.replace(//g, "ஷை");
+eelam=eelam.replace(//g, "ஷ்");
+eelam=eelam.replace(//g, "ஷ");
+
+eelam=eelam.replace(//g, "ஸௌ");
+eelam=eelam.replace(//g, "ஸோ");
+eelam=eelam.replace(//g, "ஸொ");
+eelam=eelam.replace(//g, "ஸா");
+eelam=eelam.replace(//g, "ஸி");
+eelam=eelam.replace(//g, "ஸீ");
+eelam=eelam.replace(//g, "ஸு");
+eelam=eelam.replace(//g, "ஸூ");
+eelam=eelam.replace(//g, "ஸெ");
+eelam=eelam.replace(//g, "ஸே");
+eelam=eelam.replace(//g, "ஸை");
+eelam=eelam.replace(//g, "ஸ்");
+eelam=eelam.replace(//g, "ஸ");
+
+eelam=eelam.replace(//g, "அ");
+eelam=eelam.replace(//g, "ஆ");
+eelam=eelam.replace(//g, "இ");
+eelam=eelam.replace(//g, "ஈ");
+eelam=eelam.replace(//g, "உ");
+eelam=eelam.replace(//g, "ஊ");
+eelam=eelam.replace(//g, "எ");
+eelam=eelam.replace(//g, "ஏ");
+eelam=eelam.replace(//g, "ஐ");
+eelam=eelam.replace(//g, "ஒ");
+eelam=eelam.replace(//g, "ஓ");
+eelam=eelam.replace(//g, "ஔ");
+eelam=eelam.replace(//g, "ஃ");
+
+eelam = eelam.replace(//g, "1");
+eelam = eelam.replace(//g, "2");
+eelam = eelam.replace(//g, "3");
+eelam = eelam.replace(//g, "4");
+eelam = eelam.replace(//g, "5");
+eelam = eelam.replace(//g, "6");
+eelam = eelam.replace(//g, "7");
+eelam = eelam.replace(//g, "8");
+eelam = eelam.replace(//g, "9");
+eelam = eelam.replace(//g, "0");
+
+eelam = eelam.replace(//g, "!");
+eelam = eelam.replace(//g, "'");
+eelam = eelam.replace(//g, "%");
+eelam = eelam.replace(//g, "&");
+eelam = eelam.replace(//g, "\"");
+eelam = eelam.replace(//g, "(");
+eelam = eelam.replace(//g, ")");
+eelam = eelam.replace(//g, "+");
+eelam = eelam.replace(//g, ",");
+eelam = eelam.replace(//g, "-");
+eelam = eelam.replace(//g, ".");
+eelam = eelam.replace(//g, "/");
+eelam = eelam.replace(//g, ":");
+eelam = eelam.replace(//g, ";");
+eelam = eelam.replace(//g, "=");
+eelam = eelam.replace(//g, "?");
+
+
+eelam = eelam.replace(//g, "!");
+eelam = eelam.replace(//g, "'");
+eelam = eelam.replace(//g, "%");
+eelam = eelam.replace(//g, "?");
+eelam = eelam.replace(//g, "\"");
+eelam = eelam.replace(//g, "&"); 
+eelam = eelam.replace(//g, "(");
+eelam = eelam.replace(//g, ")");
+eelam = eelam.replace(//g, "+");
+eelam = eelam.replace(//g, ",");
+eelam = eelam.replace(//g, "-");
+eelam = eelam.replace(//g, ":");
+eelam = eelam.replace(//g, ";");
+eelam = eelam.replace(//g, "=");
+eelam = eelam.replace(//g, "\/");
+eelam = eelam.replace(//g, "\.");
+
+document.yarlsuratha.box2.value=eelam;
+
+}
+
+
